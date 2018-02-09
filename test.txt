@@ -1,0 +1,1534 @@
+{
+    "from": 0,
+    "took": 234,
+    "next": [
+        1,
+        "fff85d8a4bedce87e4e3be6ac2baeb15"
+    ],
+    "data_version": "17.12",
+    "query": {
+        "sort": [
+            "scores.association_score"
+        ]
+    },
+    "total": 5784597,
+    "data": [
+        {
+            "target": {
+                "target_name": "KIFC3",
+                "id": "ENSG00000140859",
+                "gene_info": {
+                    "symbol": "KIFC3",
+                    "name": "kinesin family member C3",
+                    "geneid": "ENSG00000140859"
+                },
+                "target_type": "gene_evidence",
+                "activity": "unknown"
+            },
+            "validated_against_schema_version": "1.2.7",
+            "sourceID": "slapenrich",
+            "disease": {
+                "efo_info": {
+                    "therapeutic_area": {
+                        "labels": [
+                            "nervous system disease",
+                            "neoplasm",
+                            "other disease"
+                        ],
+                        "codes": [
+                            "EFO_0000616",
+                            "other",
+                            "EFO_0000618"
+                        ]
+                    },
+                    "path": [
+                        [
+                            "EFO_0000616",
+                            "EFO_0000311",
+                            "EFO_0000326",
+                            "EFO_0005543",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0000311",
+                            "EFO_0000326",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0003833",
+                            "EFO_0005543",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "EFO_0000618",
+                            "EFO_0000326",
+                            "EFO_0005543",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "EFO_0000618",
+                            "EFO_0000326",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "EFO_0000618",
+                            "EFO_0005774",
+                            "EFO_0003833",
+                            "EFO_0005543",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "other",
+                            "EFO_0005774",
+                            "EFO_0003833",
+                            "EFO_0005543",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ]
+                    ],
+                    "efo_id": "http://www.ebi.ac.uk/efo/EFO_0000519",
+                    "label": "glioblastoma multiforme"
+                },
+                "name": "glioblastoma multiforme",
+                "id": "EFO_0000519"
+            },
+            "unique_association_fields": {
+                "pathway_id": "http://www.reactome.org/PathwayBrowser/#R-HSA-390471",
+                "efo_id": "http://www.ebi.ac.uk/efo/EFO_0000519",
+                "symbol": "KIFC3",
+                "tumor_type_acronym": "GBM",
+                "tumor_type": "glioblastoma multiforme"
+            },
+            "evidence": {
+                "is_associated": true,
+                "urls": [
+                    {
+                        "url": "http://www.reactome.org/PathwayBrowser/#R-HSA-390471",
+                        "nice_name": " Association of TriC/CCT with target proteins during biosynthesis"
+                    }
+                ],
+                "provenance_type": {
+                    "literature": {
+                        "references": [
+                            {
+                                "lit_id": "http://europepmc.org/abstract/MED/28179366"
+                            }
+                        ]
+                    },
+                    "database": {
+                        "dbxref": {
+                            "url": "https://saezlab.github.io/SLAPenrich/",
+                            "version": "2017.08",
+                            "id": "SLAPEnrich analysis of TCGA tumor types"
+                        },
+                        "id": "SLAPEnrich",
+                        "version": "2017.08"
+                    }
+                },
+                "evidence_codes_info": [
+                    [
+                        {
+                            "eco_id": "ECO_0000053",
+                            "label": "computational combinatorial evidence"
+                        }
+                    ]
+                ],
+                "resource_score": {
+                    "type": "pvalue",
+                    "method": {
+                        "url": "https://saezlab.github.io/SLAPenrich",
+                        "description": "SLAPEnrich analysis of TCGA tumor types as described in Brammeld J et al (2017)",
+                        "reference": "http://europepmc.org/abstract/MED/28179366"
+                    },
+                    "value": 6.04e-15
+                },
+                "evidence_codes": [
+                    "ECO_0000053"
+                ],
+                "date_asserted": "2017-12-01T20:35:59.472582"
+            },
+            "access_level": "public",
+            "scores": {
+                "association_score": 1
+            },
+            "type": "affected_pathway",
+            "id": "ffff8119c16671250210cf5cc7ce1f88"
+        },
+        {
+            "target": {
+                "target_name": "PSMD12",
+                "id": "ENSG00000197170",
+                "gene_info": {
+                    "symbol": "PSMD12",
+                    "name": "proteasome 26S subunit, non-ATPase 12",
+                    "geneid": "ENSG00000197170"
+                },
+                "target_type": "gene_evidence",
+                "activity": "unknown"
+            },
+            "validated_against_schema_version": "1.2.7",
+            "sourceID": "slapenrich",
+            "disease": {
+                "efo_info": {
+                    "therapeutic_area": {
+                        "labels": [
+                            "neoplasm",
+                            "respiratory system disease"
+                        ],
+                        "codes": [
+                            "EFO_0000684",
+                            "EFO_0000616"
+                        ]
+                    },
+                    "path": [
+                        [
+                            "EFO_0000616",
+                            "EFO_0003853",
+                            "EFO_0001071",
+                            "EFO_0000708"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0000311",
+                            "EFO_0000313",
+                            "EFO_0000707",
+                            "EFO_0000708"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0000311",
+                            "EFO_0000313",
+                            "EFO_0001071",
+                            "EFO_0000708"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0006858",
+                            "EFO_0000313",
+                            "EFO_0000707",
+                            "EFO_0000708"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0006858",
+                            "EFO_0000313",
+                            "EFO_0001071",
+                            "EFO_0000708"
+                        ],
+                        [
+                            "EFO_0000684",
+                            "EFO_0003818",
+                            "EFO_0001071",
+                            "EFO_0000708"
+                        ],
+                        [
+                            "EFO_0000684",
+                            "EFO_0003853",
+                            "EFO_0001071",
+                            "EFO_0000708"
+                        ]
+                    ],
+                    "efo_id": "http://www.ebi.ac.uk/efo/EFO_0000708",
+                    "label": "squamous cell lung carcinoma"
+                },
+                "name": "squamous cell lung carcinoma",
+                "id": "EFO_0000708"
+            },
+            "unique_association_fields": {
+                "pathway_id": "http://www.reactome.org/PathwayBrowser/#R-HSA-69580",
+                "efo_id": "http://www.ebi.ac.uk/efo/EFO_0000708",
+                "symbol": "PSMD12",
+                "tumor_type_acronym": "LUSC",
+                "tumor_type": "lung squamous cell carcinoma"
+            },
+            "evidence": {
+                "is_associated": true,
+                "urls": [
+                    {
+                        "url": "http://www.reactome.org/PathwayBrowser/#R-HSA-69580",
+                        "nice_name": " p53-Dependent G1/S DNA damage checkpoint"
+                    }
+                ],
+                "provenance_type": {
+                    "literature": {
+                        "references": [
+                            {
+                                "lit_id": "http://europepmc.org/abstract/MED/28179366"
+                            }
+                        ]
+                    },
+                    "database": {
+                        "dbxref": {
+                            "url": "https://saezlab.github.io/SLAPenrich/",
+                            "version": "2017.08",
+                            "id": "SLAPEnrich analysis of TCGA tumor types"
+                        },
+                        "id": "SLAPEnrich",
+                        "version": "2017.08"
+                    }
+                },
+                "evidence_codes_info": [
+                    [
+                        {
+                            "eco_id": "ECO_0000053",
+                            "label": "computational combinatorial evidence"
+                        }
+                    ]
+                ],
+                "resource_score": {
+                    "type": "pvalue",
+                    "method": {
+                        "url": "https://saezlab.github.io/SLAPenrich",
+                        "description": "SLAPEnrich analysis of TCGA tumor types as described in Brammeld J et al (2017)",
+                        "reference": "http://europepmc.org/abstract/MED/28179366"
+                    },
+                    "value": 1.04e-16
+                },
+                "evidence_codes": [
+                    "ECO_0000053"
+                ],
+                "date_asserted": "2017-12-01T20:35:59.472582"
+            },
+            "access_level": "public",
+            "scores": {
+                "association_score": 1
+            },
+            "type": "affected_pathway",
+            "id": "ffff1695bb1e336dbc488e94aa300bf5"
+        },
+        {
+            "target": {
+                "target_name": "TAT",
+                "id": "ENSG00000198650",
+                "gene_info": {
+                    "symbol": "TAT",
+                    "name": "tyrosine aminotransferase",
+                    "geneid": "ENSG00000198650"
+                },
+                "target_type": "gene_evidence",
+                "activity": "unknown"
+            },
+            "validated_against_schema_version": "1.2.7",
+            "sourceID": "gene2phenotype",
+            "disease": {
+                "efo_info": {
+                    "therapeutic_area": {
+                        "labels": [
+                            "metabolic disease",
+                            "eye disease",
+                            "genetic disorder",
+                            "skin disease"
+                        ],
+                        "codes": [
+                            "EFO_0003966",
+                            "EFO_0000701",
+                            "EFO_0000589",
+                            "EFO_0000508"
+                        ]
+                    },
+                    "path": [
+                        [
+                            "EFO_0003966",
+                            "Orphanet_101435",
+                            "Orphanet_98710",
+                            "Orphanet_98711",
+                            "Orphanet_28378"
+                        ],
+                        [
+                            "EFO_0003966",
+                            "Orphanet_101435",
+                            "Orphanet_98696",
+                            "Orphanet_98697",
+                            "Orphanet_98699",
+                            "Orphanet_28378"
+                        ],
+                        [
+                            "EFO_0000508",
+                            "Orphanet_68367",
+                            "Orphanet_79062",
+                            "Orphanet_79190",
+                            "Orphanet_284818",
+                            "Orphanet_28378"
+                        ],
+                        [
+                            "EFO_0000508",
+                            "Orphanet_68346",
+                            "Orphanet_183426",
+                            "Orphanet_79357",
+                            "Orphanet_307837",
+                            "Orphanet_307871",
+                            "Orphanet_98357",
+                            "Orphanet_28378"
+                        ],
+                        [
+                            "EFO_0000508",
+                            "Orphanet_101435",
+                            "Orphanet_98710",
+                            "Orphanet_98711",
+                            "Orphanet_28378"
+                        ],
+                        [
+                            "EFO_0000508",
+                            "Orphanet_101435",
+                            "Orphanet_98696",
+                            "Orphanet_98697",
+                            "Orphanet_98699",
+                            "Orphanet_28378"
+                        ],
+                        [
+                            "EFO_0000589",
+                            "Orphanet_68367",
+                            "Orphanet_79062",
+                            "Orphanet_79190",
+                            "Orphanet_284818",
+                            "Orphanet_28378"
+                        ],
+                        [
+                            "EFO_0000701",
+                            "Orphanet_68346",
+                            "Orphanet_183426",
+                            "Orphanet_79357",
+                            "Orphanet_307837",
+                            "Orphanet_307871",
+                            "Orphanet_98357",
+                            "Orphanet_28378"
+                        ]
+                    ],
+                    "efo_id": "http://www.orpha.net/ORDO/Orphanet_28378",
+                    "label": "Tyrosinemia type 2"
+                },
+                "source_name": "TYROSINEMIA TYPE 2",
+                "name": "Tyrosinemia type 2",
+                "id": "Orphanet_28378"
+            },
+            "unique_association_fields": {
+                "source_id": "gene2phenotype",
+                "disease_uri": "http://www.orpha.net/ORDO/Orphanet_28378",
+                "target": "http://identifiers.org/ensembl/ENSG00000198650",
+                "original_disease_label": "TYROSINEMIA TYPE 2"
+            },
+            "evidence": {
+                "is_associated": true,
+                "urls": [
+                    {
+                        "url": "http://www.ebi.ac.uk/gene2phenotype/search?panel=ALL&search_term=TAT",
+                        "nice_name": "Gene2PhenotypeTAT"
+                    }
+                ],
+                "provenance_type": {
+                    "literature": {
+                        "references": [
+                            {
+                                "lit_id": "http://europepmc.org/abstract/MED/25529582"
+                            }
+                        ]
+                    },
+                    "database": {
+                        "dbxref": {
+                            "url": "http://www.ebi.ac.uk/gene2phenotype",
+                            "version": "v0.2",
+                            "id": "Gene2Phenotype"
+                        },
+                        "id": "Gene2Phenotype",
+                        "version": "v0.2"
+                    }
+                },
+                "evidence_codes_info": [
+                    [
+                        {
+                            "eco_id": "ECO_0000204",
+                            "label": "author statement"
+                        }
+                    ]
+                ],
+                "resource_score": {
+                    "type": "probability",
+                    "value": 1
+                },
+                "evidence_codes": [
+                    "ECO_0000204"
+                ],
+                "date_asserted": "2017-08-30T00:00:00"
+            },
+            "access_level": "public",
+            "scores": {
+                "association_score": 1
+            },
+            "type": "genetic_association",
+            "id": "fffe42c89373f1bc6566ec61f8184e2e"
+        },
+        {
+            "target": {
+                "target_name": "Serotonin 2a (5-HT2a) receptor",
+                "gene_info": {
+                    "symbol": "HTR2A",
+                    "name": "5-hydroxytryptamine receptor 2A",
+                    "geneid": "ENSG00000102468"
+                },
+                "target_type": "protein_evidence",
+                "activity": "drug_negative_modulator",
+                "target_class": [
+                    "Serotonin receptor"
+                ],
+                "id": "ENSG00000102468"
+            },
+            "validated_against_schema_version": "1.2.7",
+            "sourceID": "chembl",
+            "disease": {
+                "efo_info": {
+                    "therapeutic_area": {
+                        "labels": [
+                            "nervous system disease",
+                            "other disease"
+                        ],
+                        "codes": [
+                            "other",
+                            "EFO_0000618"
+                        ]
+                    },
+                    "path": [
+                        [
+                            "EFO_0000618",
+                            "EFO_0005774",
+                            "EFO_0000677",
+                            "EFO_0004247",
+                            "EFO_0003761"
+                        ],
+                        [
+                            "other",
+                            "EFO_0005774",
+                            "EFO_0000677",
+                            "EFO_0004247",
+                            "EFO_0003761"
+                        ],
+                        [
+                            "other",
+                            "EFO_0000677",
+                            "EFO_0004247",
+                            "EFO_0003761"
+                        ]
+                    ],
+                    "efo_id": "http://www.ebi.ac.uk/efo/EFO_0003761",
+                    "label": "unipolar depression"
+                },
+                "id": "EFO_0003761"
+            },
+            "unique_association_fields": {
+                "chembl_targets": "http://identifiers.org/uniprot/P28223",
+                "url": "https://clinicaltrials.gov/search?id=%22NCT02960763%22",
+                "chembl_molecules": "http://identifiers.org/chembl.compound/CHEMBL1112",
+                "efo_classification": "http://www.ebi.ac.uk/efo/EFO_0003761",
+                "unique_id": "31380"
+            },
+            "evidence": {
+                "target2drug": {
+                    "action_type": "ANTAGONIST",
+                    "mechanism_of_action": "Serotonin 2a (5-HT2a) receptor antagonist",
+                    "urls": [
+                        {
+                            "url": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL1112",
+                            "nice_name": "ChEMBL molecule information"
+                        },
+                        {
+                            "url": "https://www.ebi.ac.uk/chembl/target/inspect/CHEMBL224",
+                            "nice_name": "ChEMBL target information"
+                        },
+                        {
+                            "url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c040bd1d-45b7-49f2-93ea-aed7220b30ac#nlm34090-1",
+                            "nice_name": "DailyMed"
+                        }
+                    ],
+                    "provenance_type": {
+                        "expert": {
+                            "status": true
+                        },
+                        "database": {
+                            "version": "23",
+                            "id": "ChEMBL"
+                        }
+                    },
+                    "is_associated": true,
+                    "resource_score": {
+                        "type": "probability",
+                        "method": {
+                            "url": "https://github.com/CTTV/association_score_methods/blob/master/CTTV008_ChEMBL/description.md"
+                        },
+                        "value": 1
+                    },
+                    "evidence_codes": [
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/target_drug",
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/drug_disease"
+                    ],
+                    "date_asserted": "2015-01-14T00:00:00.000Z"
+                },
+                "drug2clinic": {
+                    "status": "Recruiting",
+                    "urls": [
+                        {
+                            "url": "https://clinicaltrials.gov/search?id=%22NCT02960763%22",
+                            "nice_name": "Clinical Trials Information"
+                        }
+                    ],
+                    "max_phase_for_disease": {
+                        "numeric_index": 4,
+                        "label": "Phase IV"
+                    },
+                    "provenance_type": {
+                        "expert": {
+                            "status": true
+                        }
+                    },
+                    "is_associated": true,
+                    "resource_score": {
+                        "type": "probability",
+                        "method": {
+                            "url": "https://github.com/CTTV/association_score_methods/blob/master/CTTV008_ChEMBL/description.md"
+                        },
+                        "value": 1
+                    },
+                    "evidence_codes": [
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/drug_disease"
+                    ],
+                    "date_asserted": "2017-04-07T00:00:00.000Z"
+                },
+                "evidence_codes_info": [
+                    [
+                        {
+                            "eco_id": "drug_disease",
+                            "label": "drug-disease evidence"
+                        }
+                    ],
+                    [
+                        {
+                            "eco_id": "target_drug",
+                            "label": "biological target to drug evidence"
+                        }
+                    ],
+                    [
+                        {
+                            "eco_id": "ECO_0000205",
+                            "label": "curator inference"
+                        }
+                    ]
+                ],
+                "evidence_codes": [
+                    "drug_disease",
+                    "target_drug",
+                    "ECO_0000205"
+                ]
+            },
+            "access_level": "public",
+            "drug": {
+                "molecule_name": "ARIPIPRAZOLE",
+                "max_phase_for_all_diseases": {
+                    "numeric_index": 4,
+                    "label": "Phase IV"
+                },
+                "molecule_type": "Small molecule",
+                "id": "http://identifiers.org/chembl.compound/CHEMBL1112"
+            },
+            "scores": {
+                "association_score": 1
+            },
+            "type": "known_drug",
+            "id": "fffde73f9b97c7f97a458d86009a2015"
+        },
+        {
+            "target": {
+                "target_name": "Beta-1 adrenergic receptor",
+                "gene_info": {
+                    "symbol": "ADRB1",
+                    "name": "adrenoceptor beta 1",
+                    "geneid": "ENSG00000043591"
+                },
+                "target_type": "protein_evidence",
+                "activity": "drug_negative_modulator",
+                "target_class": [
+                    "Adrenergic receptor"
+                ],
+                "id": "ENSG00000043591"
+            },
+            "validated_against_schema_version": "1.2.7",
+            "sourceID": "chembl",
+            "disease": {
+                "efo_info": {
+                    "therapeutic_area": {
+                        "labels": [
+                            "cardiovascular disease"
+                        ],
+                        "codes": [
+                            "EFO_0000319"
+                        ]
+                    },
+                    "path": [
+                        [
+                            "EFO_0000319",
+                            "EFO_0003777",
+                            "EFO_0000612"
+                        ],
+                        [
+                            "EFO_0000319",
+                            "EFO_0000612"
+                        ]
+                    ],
+                    "efo_id": "http://www.ebi.ac.uk/efo/EFO_0000612",
+                    "label": "myocardial infarction"
+                },
+                "id": "EFO_0000612"
+            },
+            "unique_association_fields": {
+                "chembl_targets": "http://identifiers.org/uniprot/P08588",
+                "url": "https://clinicaltrials.gov/search?id=%22NCT01311700%22",
+                "chembl_molecules": "http://identifiers.org/chembl.compound/CHEMBL13",
+                "efo_classification": "http://www.ebi.ac.uk/efo/EFO_0000612",
+                "unique_id": "4448"
+            },
+            "evidence": {
+                "target2drug": {
+                    "action_type": "ANTAGONIST",
+                    "mechanism_of_action": "Beta-1 adrenergic receptor antagonist",
+                    "urls": [
+                        {
+                            "url": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL13",
+                            "nice_name": "ChEMBL molecule information"
+                        },
+                        {
+                            "url": "https://www.ebi.ac.uk/chembl/target/inspect/CHEMBL213",
+                            "nice_name": "ChEMBL target information"
+                        },
+                        {
+                            "url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31d8610a-ab22-49e5-a762-6b08244ee93a",
+                            "nice_name": "DailyMed"
+                        }
+                    ],
+                    "provenance_type": {
+                        "expert": {
+                            "status": true
+                        },
+                        "database": {
+                            "version": "23",
+                            "id": "ChEMBL"
+                        }
+                    },
+                    "is_associated": true,
+                    "resource_score": {
+                        "type": "probability",
+                        "method": {
+                            "url": "https://github.com/CTTV/association_score_methods/blob/master/CTTV008_ChEMBL/description.md"
+                        },
+                        "value": 1
+                    },
+                    "evidence_codes": [
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/target_drug",
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/drug_disease"
+                    ],
+                    "date_asserted": "2015-01-14T00:00:00.000Z"
+                },
+                "drug2clinic": {
+                    "status": "Active, not recruiting",
+                    "urls": [
+                        {
+                            "url": "https://clinicaltrials.gov/search?id=%22NCT01311700%22",
+                            "nice_name": "Clinical Trials Information"
+                        }
+                    ],
+                    "max_phase_for_disease": {
+                        "numeric_index": 4,
+                        "label": "Phase IV"
+                    },
+                    "provenance_type": {
+                        "expert": {
+                            "status": true
+                        }
+                    },
+                    "is_associated": true,
+                    "resource_score": {
+                        "type": "probability",
+                        "method": {
+                            "url": "https://github.com/CTTV/association_score_methods/blob/master/CTTV008_ChEMBL/description.md"
+                        },
+                        "value": 1
+                    },
+                    "evidence_codes": [
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/drug_disease"
+                    ],
+                    "date_asserted": "2017-02-03T00:00:00.000Z"
+                },
+                "evidence_codes_info": [
+                    [
+                        {
+                            "eco_id": "drug_disease",
+                            "label": "drug-disease evidence"
+                        }
+                    ],
+                    [
+                        {
+                            "eco_id": "target_drug",
+                            "label": "biological target to drug evidence"
+                        }
+                    ],
+                    [
+                        {
+                            "eco_id": "ECO_0000205",
+                            "label": "curator inference"
+                        }
+                    ]
+                ],
+                "evidence_codes": [
+                    "drug_disease",
+                    "target_drug",
+                    "ECO_0000205"
+                ]
+            },
+            "access_level": "public",
+            "drug": {
+                "molecule_name": "METOPROLOL",
+                "max_phase_for_all_diseases": {
+                    "numeric_index": 4,
+                    "label": "Phase IV"
+                },
+                "molecule_type": "Small molecule",
+                "id": "http://identifiers.org/chembl.compound/CHEMBL13"
+            },
+            "scores": {
+                "association_score": 1
+            },
+            "type": "known_drug",
+            "id": "fffb0e8619a2c58fc2fabc556342432f"
+        },
+        {
+            "target": {
+                "target_name": "TP63",
+                "id": "ENSG00000073282",
+                "gene_info": {
+                    "symbol": "TP63",
+                    "name": "tumor protein p63",
+                    "geneid": "ENSG00000073282"
+                },
+                "target_type": "gene_evidence",
+                "activity": "unknown"
+            },
+            "validated_against_schema_version": "1.2.7",
+            "sourceID": "slapenrich",
+            "disease": {
+                "efo_info": {
+                    "therapeutic_area": {
+                        "labels": [
+                            "neoplasm",
+                            "bladder disease"
+                        ],
+                        "codes": [
+                            "EFO_1000018",
+                            "EFO_0000616"
+                        ]
+                    },
+                    "path": [
+                        [
+                            "EFO_1000018",
+                            "EFO_0000292"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0000311",
+                            "EFO_0000313",
+                            "EFO_0000292"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0006858",
+                            "EFO_0000313",
+                            "EFO_0000292"
+                        ]
+                    ],
+                    "efo_id": "http://www.ebi.ac.uk/efo/EFO_0000292",
+                    "label": "bladder carcinoma"
+                },
+                "name": "bladder carcinoma",
+                "id": "EFO_0000292"
+            },
+            "unique_association_fields": {
+                "pathway_id": "http://www.reactome.org/PathwayBrowser/#R-HSA-109606",
+                "efo_id": "http://www.ebi.ac.uk/efo/EFO_0000292",
+                "symbol": "TP63",
+                "tumor_type_acronym": "BLCA",
+                "tumor_type": "bladder carcinoma"
+            },
+            "evidence": {
+                "is_associated": true,
+                "urls": [
+                    {
+                        "url": "http://www.reactome.org/PathwayBrowser/#R-HSA-109606",
+                        "nice_name": " Intrinsic Pathway for Apoptosis"
+                    }
+                ],
+                "provenance_type": {
+                    "literature": {
+                        "references": [
+                            {
+                                "lit_id": "http://europepmc.org/abstract/MED/28179366"
+                            }
+                        ]
+                    },
+                    "database": {
+                        "dbxref": {
+                            "url": "https://saezlab.github.io/SLAPenrich/",
+                            "version": "2017.08",
+                            "id": "SLAPEnrich analysis of TCGA tumor types"
+                        },
+                        "id": "SLAPEnrich",
+                        "version": "2017.08"
+                    }
+                },
+                "evidence_codes_info": [
+                    [
+                        {
+                            "eco_id": "ECO_0000053",
+                            "label": "computational combinatorial evidence"
+                        }
+                    ]
+                ],
+                "resource_score": {
+                    "type": "pvalue",
+                    "method": {
+                        "url": "https://saezlab.github.io/SLAPenrich",
+                        "description": "SLAPEnrich analysis of TCGA tumor types as described in Brammeld J et al (2017)",
+                        "reference": "http://europepmc.org/abstract/MED/28179366"
+                    },
+                    "value": 1.46e-15
+                },
+                "evidence_codes": [
+                    "ECO_0000053"
+                ],
+                "date_asserted": "2017-12-01T20:35:59.472582"
+            },
+            "access_level": "public",
+            "scores": {
+                "association_score": 1
+            },
+            "type": "affected_pathway",
+            "id": "fff9832d4c9eabeb6aac10a32b78b8e0"
+        },
+        {
+            "target": {
+                "target_name": "PSMB8",
+                "id": "ENSG00000204264",
+                "gene_info": {
+                    "symbol": "PSMB8",
+                    "name": "proteasome subunit beta 8",
+                    "geneid": "ENSG00000204264"
+                },
+                "target_type": "gene_evidence",
+                "activity": "unknown"
+            },
+            "validated_against_schema_version": "1.2.7",
+            "sourceID": "slapenrich",
+            "disease": {
+                "efo_info": {
+                    "therapeutic_area": {
+                        "labels": [
+                            "nervous system disease",
+                            "neoplasm",
+                            "other disease"
+                        ],
+                        "codes": [
+                            "EFO_0000616",
+                            "other",
+                            "EFO_0000618"
+                        ]
+                    },
+                    "path": [
+                        [
+                            "EFO_0000616",
+                            "EFO_0000311",
+                            "EFO_0000326",
+                            "EFO_0005543",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0000311",
+                            "EFO_0000326",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0003833",
+                            "EFO_0005543",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "EFO_0000618",
+                            "EFO_0000326",
+                            "EFO_0005543",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "EFO_0000618",
+                            "EFO_0000326",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "EFO_0000618",
+                            "EFO_0005774",
+                            "EFO_0003833",
+                            "EFO_0005543",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ],
+                        [
+                            "other",
+                            "EFO_0005774",
+                            "EFO_0003833",
+                            "EFO_0005543",
+                            "EFO_0000272",
+                            "EFO_0000519"
+                        ]
+                    ],
+                    "efo_id": "http://www.ebi.ac.uk/efo/EFO_0000519",
+                    "label": "glioblastoma multiforme"
+                },
+                "name": "glioblastoma multiforme",
+                "id": "EFO_0000519"
+            },
+            "unique_association_fields": {
+                "pathway_id": "http://www.reactome.org/PathwayBrowser/#R-HSA-69563",
+                "efo_id": "http://www.ebi.ac.uk/efo/EFO_0000519",
+                "symbol": "PSMB8",
+                "tumor_type_acronym": "GBM",
+                "tumor_type": "glioblastoma multiforme"
+            },
+            "evidence": {
+                "is_associated": true,
+                "urls": [
+                    {
+                        "url": "http://www.reactome.org/PathwayBrowser/#R-HSA-69563",
+                        "nice_name": " p53-Dependent G1 DNA Damage Response"
+                    }
+                ],
+                "provenance_type": {
+                    "literature": {
+                        "references": [
+                            {
+                                "lit_id": "http://europepmc.org/abstract/MED/28179366"
+                            }
+                        ]
+                    },
+                    "database": {
+                        "dbxref": {
+                            "url": "https://saezlab.github.io/SLAPenrich/",
+                            "version": "2017.08",
+                            "id": "SLAPEnrich analysis of TCGA tumor types"
+                        },
+                        "id": "SLAPEnrich",
+                        "version": "2017.08"
+                    }
+                },
+                "evidence_codes_info": [
+                    [
+                        {
+                            "eco_id": "ECO_0000053",
+                            "label": "computational combinatorial evidence"
+                        }
+                    ]
+                ],
+                "resource_score": {
+                    "type": "pvalue",
+                    "method": {
+                        "url": "https://saezlab.github.io/SLAPenrich",
+                        "description": "SLAPEnrich analysis of TCGA tumor types as described in Brammeld J et al (2017)",
+                        "reference": "http://europepmc.org/abstract/MED/28179366"
+                    },
+                    "value": 4.38e-15
+                },
+                "evidence_codes": [
+                    "ECO_0000053"
+                ],
+                "date_asserted": "2017-12-01T20:35:59.472582"
+            },
+            "access_level": "public",
+            "scores": {
+                "association_score": 1
+            },
+            "type": "affected_pathway",
+            "id": "fff95b5b7132d5b91913986e821a7ec9"
+        },
+        {
+            "target": {
+                "target_name": "TP53I3",
+                "id": "ENSG00000115129",
+                "gene_info": {
+                    "symbol": "TP53I3",
+                    "name": "tumor protein p53 inducible protein 3",
+                    "geneid": "ENSG00000115129"
+                },
+                "target_type": "gene_evidence",
+                "activity": "unknown"
+            },
+            "validated_against_schema_version": "1.2.7",
+            "sourceID": "slapenrich",
+            "disease": {
+                "efo_info": {
+                    "therapeutic_area": {
+                        "labels": [
+                            "neoplasm",
+                            "digestive system disease"
+                        ],
+                        "codes": [
+                            "EFO_0000616",
+                            "EFO_0000405"
+                        ]
+                    },
+                    "path": [
+                        [
+                            "EFO_0000405",
+                            "EFO_0002916"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0000311",
+                            "EFO_0000313",
+                            "EFO_0002916"
+                        ],
+                        [
+                            "EFO_0000616",
+                            "EFO_0006858",
+                            "EFO_0000313",
+                            "EFO_0002916"
+                        ]
+                    ],
+                    "efo_id": "http://www.ebi.ac.uk/efo/EFO_0002916",
+                    "label": "esophageal carcinoma"
+                },
+                "name": "esophageal carcinoma",
+                "id": "EFO_0002916"
+            },
+            "unique_association_fields": {
+                "pathway_id": "http://www.reactome.org/PathwayBrowser/#R-HSA-5633008",
+                "efo_id": "http://www.ebi.ac.uk/efo/EFO_0002916",
+                "symbol": "TP53I3",
+                "tumor_type_acronym": "ESCA",
+                "tumor_type": "esophageal carcinoma"
+            },
+            "evidence": {
+                "is_associated": true,
+                "urls": [
+                    {
+                        "url": "http://www.reactome.org/PathwayBrowser/#R-HSA-5633008",
+                        "nice_name": " TP53 Regulates Transcription of Cell Death Genes"
+                    }
+                ],
+                "provenance_type": {
+                    "literature": {
+                        "references": [
+                            {
+                                "lit_id": "http://europepmc.org/abstract/MED/28179366"
+                            }
+                        ]
+                    },
+                    "database": {
+                        "dbxref": {
+                            "url": "https://saezlab.github.io/SLAPenrich/",
+                            "version": "2017.08",
+                            "id": "SLAPEnrich analysis of TCGA tumor types"
+                        },
+                        "id": "SLAPEnrich",
+                        "version": "2017.08"
+                    }
+                },
+                "evidence_codes_info": [
+                    [
+                        {
+                            "eco_id": "ECO_0000053",
+                            "label": "computational combinatorial evidence"
+                        }
+                    ]
+                ],
+                "resource_score": {
+                    "type": "pvalue",
+                    "method": {
+                        "url": "https://saezlab.github.io/SLAPenrich",
+                        "description": "SLAPEnrich analysis of TCGA tumor types as described in Brammeld J et al (2017)",
+                        "reference": "http://europepmc.org/abstract/MED/28179366"
+                    },
+                    "value": 1.17e-15
+                },
+                "evidence_codes": [
+                    "ECO_0000053"
+                ],
+                "date_asserted": "2017-12-01T20:35:59.472582"
+            },
+            "access_level": "public",
+            "scores": {
+                "association_score": 1
+            },
+            "type": "affected_pathway",
+            "id": "fff922fedcb4366ff21e40f2fc9804c8"
+        },
+        {
+            "target": {
+                "gene_info": {
+                    "symbol": "ADRA2B",
+                    "name": "adrenoceptor alpha 2B",
+                    "geneid": "ENSG00000274286"
+                },
+                "complex_type": "http://identifiers.org/cttv.target/protein_family",
+                "target_name": "Adrenergic receptor alpha-2",
+                "complex_members": [
+                    "http://identifiers.org/uniprot/P08913,http://identifiers.org/uniprot/P18825"
+                ],
+                "target_type": "protein_evidence",
+                "complex_id": "CHEMBL2095158",
+                "activity": "drug_negative_modulator",
+                "target_class": [
+                    "Adrenergic receptor"
+                ],
+                "id": "ENSG00000274286"
+            },
+            "validated_against_schema_version": "1.2.7",
+            "sourceID": "chembl",
+            "disease": {
+                "efo_info": {
+                    "therapeutic_area": {
+                        "labels": [
+                            "nervous system disease",
+                            "other disease"
+                        ],
+                        "codes": [
+                            "other",
+                            "EFO_0000618"
+                        ]
+                    },
+                    "path": [
+                        [
+                            "EFO_0000618",
+                            "EFO_0005774",
+                            "EFO_0000677",
+                            "EFO_0004247",
+                            "EFO_0003761"
+                        ],
+                        [
+                            "other",
+                            "EFO_0005774",
+                            "EFO_0000677",
+                            "EFO_0004247",
+                            "EFO_0003761"
+                        ],
+                        [
+                            "other",
+                            "EFO_0000677",
+                            "EFO_0004247",
+                            "EFO_0003761"
+                        ]
+                    ],
+                    "efo_id": "http://www.ebi.ac.uk/efo/EFO_0003761",
+                    "label": "unipolar depression"
+                },
+                "id": "EFO_0003761"
+            },
+            "unique_association_fields": {
+                "chembl_targets": "http://identifiers.org/uniprot/P08913,http://identifiers.org/uniprot/P18089,http://identifiers.org/uniprot/P18825",
+                "url": "https://clinicaltrials.gov/search?id=%22NCT01465919%22",
+                "chembl_molecules": "http://identifiers.org/chembl.compound/CHEMBL654",
+                "efo_classification": "http://www.ebi.ac.uk/efo/EFO_0003761",
+                "unique_id": "38563"
+            },
+            "evidence": {
+                "target2drug": {
+                    "action_type": "ANTAGONIST",
+                    "mechanism_of_action": "Adrenergic receptor alpha-2 antagonist",
+                    "urls": [
+                        {
+                            "url": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL654",
+                            "nice_name": "ChEMBL molecule information"
+                        },
+                        {
+                            "url": "https://www.ebi.ac.uk/chembl/target/inspect/CHEMBL2095158",
+                            "nice_name": "ChEMBL target information"
+                        },
+                        {
+                            "url": "http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f23631be-c7ae-46e9-b771-a70be17bc9f0#nlm34090-1",
+                            "nice_name": "DailyMed"
+                        }
+                    ],
+                    "provenance_type": {
+                        "expert": {
+                            "status": true
+                        },
+                        "database": {
+                            "version": "23",
+                            "id": "ChEMBL"
+                        }
+                    },
+                    "is_associated": true,
+                    "resource_score": {
+                        "type": "probability",
+                        "method": {
+                            "url": "https://github.com/CTTV/association_score_methods/blob/master/CTTV008_ChEMBL/description.md"
+                        },
+                        "value": 1
+                    },
+                    "evidence_codes": [
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/target_drug",
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/drug_disease"
+                    ],
+                    "date_asserted": "2015-01-14T00:00:00.000Z"
+                },
+                "drug2clinic": {
+                    "status": "Terminated",
+                    "urls": [
+                        {
+                            "url": "https://clinicaltrials.gov/search?id=%22NCT01465919%22",
+                            "nice_name": "Clinical Trials Information"
+                        }
+                    ],
+                    "max_phase_for_disease": {
+                        "numeric_index": 4,
+                        "label": "Phase IV"
+                    },
+                    "provenance_type": {
+                        "expert": {
+                            "status": true
+                        }
+                    },
+                    "is_associated": true,
+                    "resource_score": {
+                        "type": "probability",
+                        "method": {
+                            "url": "https://github.com/CTTV/association_score_methods/blob/master/CTTV008_ChEMBL/description.md"
+                        },
+                        "value": 1
+                    },
+                    "evidence_codes": [
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/drug_disease"
+                    ],
+                    "date_asserted": "2017-04-27T00:00:00.000Z"
+                },
+                "evidence_codes_info": [
+                    [
+                        {
+                            "eco_id": "drug_disease",
+                            "label": "drug-disease evidence"
+                        }
+                    ],
+                    [
+                        {
+                            "eco_id": "target_drug",
+                            "label": "biological target to drug evidence"
+                        }
+                    ],
+                    [
+                        {
+                            "eco_id": "ECO_0000205",
+                            "label": "curator inference"
+                        }
+                    ]
+                ],
+                "evidence_codes": [
+                    "drug_disease",
+                    "target_drug",
+                    "ECO_0000205"
+                ]
+            },
+            "access_level": "public",
+            "drug": {
+                "molecule_name": "MIRTAZAPINE",
+                "max_phase_for_all_diseases": {
+                    "numeric_index": 4,
+                    "label": "Phase IV"
+                },
+                "molecule_type": "Small molecule",
+                "id": "http://identifiers.org/chembl.compound/CHEMBL654"
+            },
+            "scores": {
+                "association_score": 1
+            },
+            "type": "known_drug",
+            "id": "fff894a55cda0a6f2c43828e3a7ddd10"
+        },
+        {
+            "target": {
+                "target_name": "Glucagon-like peptide 1 receptor",
+                "gene_info": {
+                    "symbol": "GLP1R",
+                    "name": "glucagon like peptide 1 receptor",
+                    "geneid": "ENSG00000112164"
+                },
+                "target_type": "protein_evidence",
+                "activity": "drug_positive_modulator",
+                "target_class": [
+                    "Glucagon-like peptide receptor"
+                ],
+                "id": "ENSG00000112164"
+            },
+            "validated_against_schema_version": "1.2.7",
+            "sourceID": "chembl",
+            "disease": {
+                "efo_info": {
+                    "therapeutic_area": {
+                        "labels": [
+                            "metabolic disease"
+                        ],
+                        "codes": [
+                            "EFO_0000589"
+                        ]
+                    },
+                    "path": [
+                        [
+                            "EFO_0000589",
+                            "EFO_0000400",
+                            "EFO_0001360"
+                        ]
+                    ],
+                    "efo_id": "http://www.ebi.ac.uk/efo/EFO_0001360",
+                    "label": "type II diabetes mellitus"
+                },
+                "id": "EFO_0001360"
+            },
+            "unique_association_fields": {
+                "chembl_targets": "http://identifiers.org/uniprot/P43220",
+                "url": "https://clinicaltrials.gov/search?id=%22NCT01951651%22",
+                "chembl_molecules": "http://identifiers.org/chembl.compound/CHEMBL414357",
+                "efo_classification": "http://www.ebi.ac.uk/efo/EFO_0001360",
+                "unique_id": "66428"
+            },
+            "evidence": {
+                "target2drug": {
+                    "action_type": "AGONIST",
+                    "mechanism_of_action": "Glucagon-like peptide 1 receptor agonist",
+                    "urls": [
+                        {
+                            "url": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL414357",
+                            "nice_name": "ChEMBL molecule information"
+                        },
+                        {
+                            "url": "https://www.ebi.ac.uk/chembl/target/inspect/CHEMBL1784",
+                            "nice_name": "ChEMBL target information"
+                        },
+                        {
+                            "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/022200s015s016s017s018lbl.pdf,http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=751747da-7c1f-41ad-b1a6-a6d920f70599",
+                            "nice_name": "DailyMed"
+                        }
+                    ],
+                    "provenance_type": {
+                        "expert": {
+                            "status": true
+                        },
+                        "database": {
+                            "version": "23",
+                            "id": "ChEMBL"
+                        }
+                    },
+                    "is_associated": true,
+                    "resource_score": {
+                        "type": "probability",
+                        "method": {
+                            "url": "https://github.com/CTTV/association_score_methods/blob/master/CTTV008_ChEMBL/description.md"
+                        },
+                        "value": 1
+                    },
+                    "evidence_codes": [
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/target_drug",
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/drug_disease"
+                    ],
+                    "date_asserted": "2015-01-14T00:00:00.000Z"
+                },
+                "drug2clinic": {
+                    "status": "Completed",
+                    "urls": [
+                        {
+                            "url": "https://clinicaltrials.gov/search?id=%22NCT01951651%22",
+                            "nice_name": "Clinical Trials Information"
+                        }
+                    ],
+                    "max_phase_for_disease": {
+                        "numeric_index": 4,
+                        "label": "Phase IV"
+                    },
+                    "provenance_type": {
+                        "expert": {
+                            "status": true
+                        }
+                    },
+                    "is_associated": true,
+                    "resource_score": {
+                        "type": "probability",
+                        "method": {
+                            "url": "https://github.com/CTTV/association_score_methods/blob/master/CTTV008_ChEMBL/description.md"
+                        },
+                        "value": 1
+                    },
+                    "evidence_codes": [
+                        "http://purl.obolibrary.org/obo/ECO_0000205",
+                        "http://identifiers.org/eco/drug_disease"
+                    ],
+                    "date_asserted": "2016-04-14T00:00:00.000Z"
+                },
+                "evidence_codes_info": [
+                    [
+                        {
+                            "eco_id": "drug_disease",
+                            "label": "drug-disease evidence"
+                        }
+                    ],
+                    [
+                        {
+                            "eco_id": "target_drug",
+                            "label": "biological target to drug evidence"
+                        }
+                    ],
+                    [
+                        {
+                            "eco_id": "ECO_0000205",
+                            "label": "curator inference"
+                        }
+                    ]
+                ],
+                "evidence_codes": [
+                    "drug_disease",
+                    "target_drug",
+                    "ECO_0000205"
+                ]
+            },
+            "access_level": "public",
+            "drug": {
+                "molecule_name": "EXENATIDE",
+                "max_phase_for_all_diseases": {
+                    "numeric_index": 4,
+                    "label": "Phase IV"
+                },
+                "molecule_type": "Protein",
+                "id": "http://identifiers.org/chembl.compound/CHEMBL414357"
+            },
+            "scores": {
+                "association_score": 1
+            },
+            "type": "known_drug",
+            "id": "fff85d8a4bedce87e4e3be6ac2baeb15"
+        }
+    ],
+    "size": 10
+}
